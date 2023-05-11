@@ -1,0 +1,9 @@
+google-cloud
+google-cloud-pubsub
+apache-beam==2.46.0
+apache_beam[gcp]
+Faker==18.6.2
+shortuuid
+pymongo
+dnspython
+python-dotenv
