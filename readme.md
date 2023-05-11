@@ -63,6 +63,14 @@ Finally, run the following command to output the Terraform state to a JSON file:
 terraform output -json > terraform_output.json
 ```
 
+## Export URIS
+To export URIs, use the following commands in the terminal:
+```bash
+export MONGODB_URI_TEST=<from terraform output MONGODB_URI_FOR_TEST>
+export MONGODB_URI_PRIVATE=<from terraform output MONGODB_URI_FOR_PRIVATE>
+```
+Replace <value from terraform output MONGODB_URI_FOR_TEST> and <value from terraform output MONGODB_URI_FOR_PRIVATE> with the corresponding values obtained from the Terraform output.
+
 ## Create Virtual Environment
 Create a new virtual environment with the following command:
 ```bash
