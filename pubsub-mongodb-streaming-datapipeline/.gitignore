@@ -1,0 +1,4 @@
+.env
+.terraform/
+__pycache__/
+mongo_dataflow/

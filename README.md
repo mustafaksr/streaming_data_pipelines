@@ -1,0 +1,2 @@
+# [PubSub MongoDB Streaming Datapipeline](pubsub-mongodb-streaming-datapipeline/readme.md)
+Pipeline that streams data from MongoDB to Google Cloud PubSub. It uses a custom Dataflow job to process and transform the data in real-time.
